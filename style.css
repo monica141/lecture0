@@ -1,0 +1,34 @@
+/*headlines */
+h1 {
+   color: blue;
+   text-align: center;
+}
+
+/*paragraph*/
+p {
+   color: red;
+}
+
+/*size, margin*/
+
+div {
+   /*size*/
+   background-color: teal;
+   width: 500px;
+   height: 400px;
+
+   /*spacing*/
+   /*margin outside of the divs element */
+   margin: 30px;
+   /* padding between the contexnt of the element and the outside line */
+   padding: 20px;
+
+   /*Fonts*/
+   font-family: Arial, sans-serif;
+   font-size: 28px;
+   font-weight: bold;
+
+   /*borders*/
+   border: 3px solid blue; /* 5px dotted red*/
+   /* border-collapse: collapse; takes to lines away;
+}

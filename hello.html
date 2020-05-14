@@ -3,6 +3,22 @@
    <head> <!-- information about the page that is not shown -->
       <meta charset="utf-8">
       <title></title>
+      <style media="screen">
+         #top {
+            font-size: 36px;
+         }
+
+         #middle {
+            font-size: 24px;
+         }
+
+         #bottom {
+            font-size: 12px;
+         }
+         .name {
+            font-weight: bold;
+         }
+      </style>
    </head>
    <body>
       Hello!
@@ -52,7 +68,19 @@
             <button type="button" name="Submit"></button>
          </form>
 
-
+         Divs and Spans
+         <!-- is some section in my webpage and span section of some text -->
+         <div id="top">
+            This the <span class="name">top</span> of my webpage
+         </div>
+         <div id="middle">
+            This the <span class="name">middle</span> of my webpage
+         </div>
+         <div id="bottom">
+            This the <span class="name">bottom</span> of my webpage
+         </div>
+         <!-- NOTE_ Id must be unique, only one of top, middle or bottom
+            whereas class can be repeated, 3x top, 16x middle, etc -->
 
 
    </body>
